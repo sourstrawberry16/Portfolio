@@ -1,0 +1,36 @@
+.sample {
+    height: 440px;
+    margin-top:55px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+    border: 12px double #000a13;
+    
+    width: 500px;
+    object-fit: cover;
+
+    filter: brightness(0.89);
+
+}
+
+.sampleCaption:hover {
+    transform: scale(1.03); 
+    opacity: 70%;
+  }
+
+.sampleRow {
+    
+    text-align: center;
+}
+
+.sampleCaption {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    transition: transform .3s, opacity .3s
+
+}
+
+figcaption {
+    margin-top:5px;
+}

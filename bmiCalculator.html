@@ -5,19 +5,19 @@
 <head>
     <link rel="stylesheet" href="Styles\style.css">
     
-    <link rel="stylesheet" href="Styles\samplesStyle.css">
+    <link rel="stylesheet" href="Styles\individualSample.css">
 
     <script src="script.js"></script>
 
 </head>
 
 <body>
+    
     <header>
-
         <nav class="navbar">
-            <a href = "#" class = "nav-branding">Juliette DesRochers</a>
+            <a href = "#" class = "nav-branding">Juliette DesRochers</a> <!--Portfolio. 😢-->
             <ul class = "nav-menu">
-                
+
                 <li class = "nav-item">
                     <a href="index.html" class = "nav-link" >Home</a>
                 </li>
@@ -40,40 +40,34 @@
                 <span class="bar"></span>
             </div>
         </nav>
+
     </header>
-  
+
         <main>
-            <p>
-                
-                <h1 class="header">Work Samples</h1>
-        
-
-                <div class="caption">
-                    <h2>These are examples of some IT related artifacts created by me</h2>
-                    <h2 style="padding-top: 10px;">Click on a work sample for more details!</h2>
-                </div>
-        
-                
-                <div class="sampleRow" style=" flex-direction: row;">
-                    <div class="sampleCaption">
-                        
-                    <a href="bmiCalculator.html" class = "nav-link" ><img class="sample" src="Images\samples\BMICalculator.png" alt="BMI Calculator" width="540px"></a>
-                        <figcaption> <h2>BMI Calculator</h2> </figcaption>
-                    </div>
+            <div class="container" style="display: flex; flex-direction: row;">
+                <div class="column-left" style="display: flex; flex-direction: column;">
+                    <h1  class="header" id="Header">BMI Calculator</h1>
                     
-                    <div class="sampleCaption">
-                        <a href="gameWebsite.html" class = "nav-link" ><img class="sample" src="Images\samples\JourneyToRefugeWebsiteScreenshot.PNG" alt="Journey to Refuge Website"></a>
-                        <figcaption> <h2>Game Project Website</h2> </figcaption>
-                    </div>
-                    <div class="sampleCaption">
-                        <a href="homeDownPayment.html" class = "nav-link" ><img class="sample" src="Images\samples\HomeDownPayment.png" alt="Home Down Payment" width="540px"></a>
-                        <figcaption> <h2>Home Down Payment</h2> </figcaption>
-                    </div>
+                     <h2 class="Caption"> This is an example of a Visual Basic .NET application in Visual Studio. 
+                        <br> The program allows the user to enter their height and weight, and using that input the program calculates and display the the user's BMI, and 
+                        <br>how healthy the user's weight is.
+                        <br>
+                        <br> Some skills and aspects in this program are Visual Basic, UI design, functions, user input, arithmetic calculation, and if-else statements.
+                        </h2> 
+
+                        <a href="samples.html" class="nav-link backButton">
+                            <h2>Return</h2>
+                        </a>
                 </div>
-
-            </p>
+                
+                
+                <div class="column-right">
+                    <img class="bmi" src="Images\Samples\BMICalculator.png" >
+                </div> 
+                
+            </div>
         </main>
-
+            
         <footer class="footer" >
             <h3 class="footerText">© 2025 Juliette DesRochers</h3>
                 <div class="footerItems">

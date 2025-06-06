@@ -1,0 +1,25 @@
+.cert {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    filter: brightness(0.89);
+}
+
+.certCaption:hover {
+    transform: scale(1.03); 
+    opacity: 70%;
+  }
+
+.certRow {
+    text-align: center;
+}
+
+.certCaption {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    transition: transform .3s, opacity .3s
+
+}

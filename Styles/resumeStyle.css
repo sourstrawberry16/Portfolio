@@ -1,0 +1,15 @@
+.resume {
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.resumeImage {
+    transition: transform .3s;
+    border: 7px solid #000a13;
+    filter: brightness(0.85);
+}
+
+.resumeImage:hover {
+    transform: scale(1.03); 
+}

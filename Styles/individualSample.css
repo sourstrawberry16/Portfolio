@@ -1,0 +1,112 @@
+.container {
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Caption {
+    text-align: left;
+    padding-left: 210px;
+    padding-top: 20px;
+    
+}
+
+.Description {
+    text-align: left;
+    padding-left: 210px;
+    padding-top: 60px;
+}
+
+#Header {
+    text-align: left;
+    font-size: 3.40em;
+    width: 100%;
+}
+
+.column-left {
+    margin-top: 70px;
+    align-items: center;
+    
+}
+
+.column-right {
+    padding-right: 190px;
+    padding-left: 220px;
+    padding-top: 100px;
+}
+
+.column-right img {
+    border: 7px solid #000a13;
+}
+
+.bmi {
+    width: 700px;
+    height: 490px;
+
+    filter: brightness(0.89);
+}
+
+.gameWeb {
+    width: 752px;
+    height: 410px;
+    
+    margin-top: 40px;
+}
+
+.webCaption {
+    margin-top: 5px;
+    text-align: center;
+    
+    font-size: 0.9em;
+    transition: transform .3s, opacity .3s;
+    /* transition: 0.7s ease; */
+}
+
+.webCaption:hover {
+    transform: scale(1.03); 
+    /* color: rgb(168, 137, 175); */
+  }
+
+.downPayment {
+    width: 700px;
+    height: 490px;
+    filter: brightness(0.89);
+}
+
+.backButton {
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    background-color: #000a13;
+    border-radius: 2px;
+    text-align: center;
+    transition: transform .3s, opacity .3s;
+    justify-content: center;
+    padding: 12px 30px;
+    margin-top: 50px;
+    /*margin-left: 400px; */
+    
+}
+
+.backButton:hover {
+    transform: scale(1.03); 
+}
+
+@media only screen and (min-width:1200px) { /* PC */
+    #Header {
+        padding-left: 220px;
+    }
+}
+
+@media only screen and (max-width:1200px) { /* Mobile */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .column-left > *:not(a) {
+        padding-left: 100px;
+    }
+}
